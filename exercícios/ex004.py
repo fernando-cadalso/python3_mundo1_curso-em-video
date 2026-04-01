@@ -1,0 +1,10 @@
+#Exercícios sobre a exibição das características de uma variável
+algo = input('digite algo: ')
+print('O tipo primitivo desse valor é: ', type(algo))
+print('Só tem espaços? {}'.format(algo.isspace()))
+print('É um número? ', algo.isnumeric())
+print('É alfabético? {}'.format(algo.isalpha()))
+print('É alfanumérico?',algo.isalnum())
+print('Está em maiúsculas? {}'.format(algo.isupper()))
+print('Está em minúsculas? {}'.format(algo.islower()))
+print('Está capitalizada? {}'.format(algo.istitle()))
